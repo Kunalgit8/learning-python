@@ -1,0 +1,15 @@
+x = input("What would you like to choose: Rock,Paper or scissor? ").lower().strip()
+
+
+
+if x == ("rock"):
+    print("Paper\n you're a loser")
+
+elif x == ("paper"):
+    print("Scissor\n you're a loser")
+
+elif x == ("scissor"):
+    print("Rock\n you're a loser")
+
+else:
+    print("Are you dumb?, Just pick one from the given options\n IDIOT")   
