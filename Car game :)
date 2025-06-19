@@ -1,0 +1,21 @@
+w=input(">").lower()
+if w=="help":
+	print("""
+		>Start
+		starts the car
+		>Stop
+		stops the car
+		>Quit
+		exits the car
+		""")
+else: print("Type 'Help'")
+while True:
+	g=input(">").lower()
+	if g=="start":
+		print("Car is started... Ready to vroom")
+	elif g=="stop":
+		print("Car is stopped no vroom :(")
+	elif g=="quit":
+		print("You quitted you fool")
+		break
+	else: print("Are you dumb? just type a command from the menu")
